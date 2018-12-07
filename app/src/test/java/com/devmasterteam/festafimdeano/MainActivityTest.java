@@ -27,7 +27,7 @@ public class MainActivityTest {
 
         assertEquals(activity2.getViewHolder().checkParticipate.isChecked(), true);
 
-        MainActivity activity3= Robolectric.setupActivity(MainActivity.class);
+        MainActivity activity3 = Robolectric.setupActivity(MainActivity.class);
         assertEquals(activity3.getViewHolder().buttonConfirm.getText().toString(), "sim");
     }
 
@@ -43,12 +43,8 @@ public class MainActivityTest {
         activity2.getViewHolder().checkParticipate.performClick();
         assertEquals(activity2.getViewHolder().checkParticipate.isChecked(), false);
 
-        MainActivity activity3= Robolectric.setupActivity(MainActivity.class);
+        MainActivity activity3 = Robolectric.setupActivity(MainActivity.class);
         assertEquals(activity3.getViewHolder().buttonConfirm.getText().toString(), "não");
     }
-
-
-
-
 
 }
