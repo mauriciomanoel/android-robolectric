@@ -31,6 +31,24 @@ public class MainActivityTest {
         assertEquals(activity3.getViewHolder().buttonConfirm.getText().toString(), "sim");
     }
 
-   
+    @Test
+    public void confirmedWontGo() {
+
+        MainActivity activity = Robolectric.setupActivity(MainActivity.class);
+        assertEquals(activity.getViewHolder().buttonConfirm.getText().toString(), "Não Confirmado");
+
+        DetailsActivity activity2 = Robolectric.setupActivity(DetailsActivity.class);
+        activity2.getViewHolder().checkParticipate.performClick();
+        assertEquals(activity2.getViewHolder().checkParticipate.isChecked(), true);
+        activity2.getViewHolder().checkParticipate.performClick();
+        assertEquals(activity2.getViewHolder().checkParticipate.isChecked(), false);
+
+        MainActivity activity3= Robolectric.setupActivity(MainActivity.class);
+        assertEquals(activity3.getViewHolder().buttonConfirm.getText().toString(), "não");
+    }
+
+
+
+
 
 }
