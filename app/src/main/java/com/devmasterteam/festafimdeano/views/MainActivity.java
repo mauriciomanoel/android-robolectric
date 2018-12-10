@@ -1,6 +1,12 @@
 package com.devmasterteam.festafimdeano.views;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.content.Intent;
+import android.os.Build;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -66,11 +72,52 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (id == R.id.btn_show_detail_contracheque) {
 
-            Intent intent = new Intent(this, ExampleActivity.class);
-            startActivity(intent);
+            showNotification();
+            //Intent intent = new Intent(this, ExampleActivity.class);
+            //startActivity(intent);
 
         }
     }
+
+    private void showNotification() {
+
+        String CHANNEL_ID = "my_channel_01";
+        NotificationCompat.Builder mBuilder;
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            CharSequence name = "channel_name";
+            String description = "description";
+            int importance = NotificationManager.IMPORTANCE_DEFAULT;
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
+            channel.setDescription(description);
+            // Register the channel with the system; you can't change the importance
+            // or other notification behaviors after this
+            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+
+            mBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                    .setSmallIcon(R.mipmap.ic_launcher)
+                    .setContentTitle("textTitle1")
+                    .setContentText("textContent1")
+                    .setChannelId(CHANNEL_ID)
+                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+        } else {
+
+            mBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                    .setSmallIcon(R.mipmap.ic_launcher)
+                    .setContentTitle("textTitle")
+                    .setContentText("textContent")
+                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+        }
+
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+        notificationManager.notify(0, mBuilder.build());
+
+
+    }
+
 
     private int getDaysLeftToEndOfYear(){
         Calendar calendarToday = Calendar.getInstance();

@@ -56,8 +56,8 @@
       <file leaf-file-name="activity_example.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_example.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="235">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExampleActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/ExampleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,18 +86,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="249">
+              <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
               <folding>
                 <element signature="e#1923#1947#0" expanded="true" />
-                <element signature="e#3301#3324#0" expanded="true" />
-                <element signature="e#3449#3461#0" expanded="true" />
-                <element signature="e#3528#3540#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-                <element signature="e#3508#3509#0" expanded="true" />
+                <element signature="e#4846#4869#0" expanded="true" />
+                <element signature="e#4994#5006#0" expanded="true" />
+                <element signature="e#5073#5085#0" expanded="true" />
+                <element signature="e#5332#5333#0" expanded="true" />
+                <element signature="e#5371#5372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2423,13 +2423,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_detalhe_evento_contracheque.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/ExampleActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_example.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/ExampleActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-17" />
     <option name="width" value="1941" />
@@ -2474,12 +2474,6 @@
             </path>
             <path>
               <item name="FestaFimDeAno" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="FestaFimDeAno" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -2490,7 +2484,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DEBUGGABLE_DEVICE" value="-google_pixel_2___9_0_preview___api_28___1080x1920-192.168.18.101:5555" />
+    <property name="DEBUGGABLE_DEVICE" value="-google_pixel_2_xl___9_0_preview___api_28___1440x2880-192.168.18.101:5555" />
     <property name="DEBUGGABLE_PROCESS" value="com.devmasterteam.festafimdeano" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2498,7 +2492,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="192.168.18.101:5555" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2890,8 +2884,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3864043" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32846716" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" visible="true" weight="0.24329159" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32737032" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.24329159" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -2901,7 +2895,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.32955465" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892665" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2926,12 +2920,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/MainActivity.java</url>
-          <line>68</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -3110,16 +3104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_example.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -3130,25 +3114,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_example.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#1923#1947#0" expanded="true" />
-            <element signature="e#3301#3324#0" expanded="true" />
-            <element signature="e#3449#3461#0" expanded="true" />
-            <element signature="e#3528#3540#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3508#3509#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/ExampleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devmasterteam/festafimdeano/views/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
+          <folding>
+            <element signature="e#1923#1947#0" expanded="true" />
+            <element signature="e#4846#4869#0" expanded="true" />
+            <element signature="e#4994#5006#0" expanded="true" />
+            <element signature="e#5073#5085#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
