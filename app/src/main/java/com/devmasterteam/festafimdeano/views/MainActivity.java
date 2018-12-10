@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mViewHolder.textToday = (TextView) findViewById(R.id.text_today);
         this.mViewHolder.textDaysLeft = (TextView) findViewById(R.id.text_days_left);
         this.mViewHolder.buttonConfirm = (Button) findViewById(R.id.button_confirm);
+        this.mViewHolder.btnDetailContracheque = (Button) findViewById(R.id.btn_show_detail_contracheque);
 
         this.mViewHolder.buttonConfirm.setOnClickListener(this);
+        this.mViewHolder.btnDetailContracheque.setOnClickListener(this);
 
         this.mSecurityPrefences = new SecurityPrefences(this);
 
@@ -59,10 +61,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             // Lógica de navegação
             Intent intent = new Intent(this, DetailsActivity.class);
-
             intent.putExtra(FimDeAnoConstants.PRESENCE, presence);
 
             startActivity(intent);
+        } else if (id == R.id.btn_show_detail_contracheque) {
+
+            Intent intent = new Intent(this, ExampleActivity.class);
+            startActivity(intent);
+
         }
     }
 
@@ -90,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         public TextView textToday;
         public TextView textDaysLeft;
         public Button buttonConfirm;
+        public Button btnDetailContracheque;
     }
 
     public ViewHolder getViewHolder() {
